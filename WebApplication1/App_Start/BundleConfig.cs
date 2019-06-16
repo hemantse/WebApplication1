@@ -7,6 +7,10 @@ namespace WebApplication1
     {
         // For more information on bundling, visit http://go.microsoft.com/fwlink/?LinkId=301862
         //Comment added
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="bundles"></param>
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
